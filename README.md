@@ -2,6 +2,9 @@
 I want to consume wordpress REST api from a react front-end and deploy to S3.  
 This app makes use of [the Wordpress REST API Demo](https://demo.wp-api.org/wp-json/wp/v2).
 
+## Architecture
+<img src='assets/sample-react-arch.png' width=800 />
+
 ## Future Developments
 It is my intention to deliver a serverless experience of Wordpress so,
 I'll make use of AWS ECS Fargate to run the REST API Layer and the headless CMS.  
